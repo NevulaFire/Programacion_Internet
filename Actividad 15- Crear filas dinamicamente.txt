@@ -1,0 +1,15 @@
+Crear un formulario con un solo select con 5000 mil opciones.
+
+Requerimientos:
+1. En una estructura básica crear un formulario con un select de 0 a 5000 opciones generadas mediante PHP.
+El archivo debe de tener la extensión PHP.
+2. No se debe de poder enviar si no ha seleccionado una opción del select con valor mayor a 0
+3. El valor seleccionado se manda hacia un archivo PHP donde se cacha y se genera una tabla <table></table> de una sola columna por
+"N" filas, donde N es igual al número de filas enviado desde el formulario. Dentro de cada fila imprimir el valor consecutivo.
+
+Entregables:
+1. Subir un archivo (video) con el funcionamiento, debiendo incluir las siguientes pruebas:
+a) Hacer click al botón de "Enviar" con el select en la opción de "Selecciona"
+b) Hacer click al botón de "Enviar" con un valor seleccionado
+c) Mostrar la tabla generada haciendo un scroll para ver la tabla completa
+2. Subir los archivos de la practica que contenga el formulario, la función de javascript y el script de PHP

@@ -1,0 +1,76 @@
+Utilizando la practica del tablero de ajedrez con la etiqueta <table>, cambiar y adaptar para que se usen DIVS
+
+Entregables:
+
+1. Subir un archivo con el HTML correspondiente
+2. Subir un JPG del HTML
+
+
+
+//TABLERO DE AJEDREZ
+
+<!-- DURAN ALCARAZ KARINA RUBI -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablero de Ajedrez</title>
+    <style>
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;}
+        
+table {
+    border-collapse: collapse; }
+        
+td {
+            width: 40px;
+            height: 40px;
+            background-color: white;
+       }
+  td:nth-child(odd) {
+            background-color: white;
+        }
+        tr:nth-child(even) td:nth-child(odd) {
+            background-color: black;
+        }
+        tr:nth-child(odd) td:nth-child(even) {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+<!-- Creacion de las Filas del tablero u,u -->
+    <table>
+        <tr>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+    </table>
+</body>
+</html>

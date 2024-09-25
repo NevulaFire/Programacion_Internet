@@ -1,0 +1,13 @@
+Utilizar el formulario adjunto para enviar la información a un archivo de PHP y mostrarla.
+
+Requerimientos:
+1. Validar con una función de javascript que TODOS los campos estén llenos o seleccionados
+2. Si falta uno o mas campos por llenar o seleccionar mostrar un alert() con el mensaje de "Faltan campos por llenar"
+3. Una vez llenos o seleccionados todos los campos, la información se debe de mandar hacia un script en PHP.
+4. Se deben de cachar los valores y mostrar la información correspondiente, si la información viene de algún select o campos con valores numéricos se debe de mostrar la etiqueta.
+
+Entregables:
+1. Subir un archivo(video) con el funcionamiento, debiendo incluir las siguientes pruebas:
+a) Hacer click al botón de "Enviar" con los campos vacíos
+b) Hacer click al botón de "Enviar" con todos los campos llenos
+2. Subir los archivos de la practica que contenga el formulario, la función de javascript y el script de PHP

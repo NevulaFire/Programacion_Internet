@@ -1,0 +1,12 @@
+Realizar con DIVs la Actividad 04
+En vez de utilizar <table></table> usar <div></div> con base a la estructura de los archivos adjuntos
+Se recomienda usar CSS para dar características a cada DIV
+
+Requerimientos:
+1. Hacer un documento con la estructura básica de un HTML vista en clase
+2. Crear en cada uno los DIVs necesario para construir la tabla correspondiente de acuerdo a los archivos adjuntos
+3. Escribir una letra, número o palabra en cada celda
+
+Entregables:
+1. Subir un screenshot de cada uno de los 4 HTML generado incluyendo el URL del navegador
+2. Subir los 4 HTML correspondientes y los archivos externos de CSS que hubieran utilizado

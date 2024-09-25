@@ -1,0 +1,22 @@
+Implementar la Actividad 10 pero sin utilizar la etiqueta <table></table>
+Esta practica debe de ser realizada con DIVS
+Hecho esta adaptación debe de hacer lo mismo: eliminar el div correspondiente
+
+Programar una función para eliminar filas <div></div> con jquery
+Usar y adaptar el código de la Actividad 03 y Actividad 10.
+Se debe de utilizar JQUERY.
+
+Requerimientos:
+1. Ser un documento con la estructura básica de un HTML vista en clase
+2. Realizar la estructura de la actividad 03 con contenedores (DIVS)
+3. Agregar 5 imágenes <img> que sean links <a></a> en la primera columna y su nombre (también link) en la segunda columna
+4. Cada link (imágenes y nombres) debe de abrir en una nueva pestaña el enlace correspondiente
+5. En la tercera columna (div) agregar un link o un botón que mande llamar una función para eliminar (ocultar) el div correspondiente.
+6. Este botón o link debe de preguntar si se quiere eliminar la fila (div), para esto se debe de usar la función confirm() de javascript
+
+
+Entregables:
+1. Subir archivo (video) con el funcionamiento, debiendo incluir las siguientes pruebas:
+a) Hacer click al botón o link de "Eliminar" para ver su funcionamiento, repetir esto tres veces
+b) Refrescar navegador
+2. Subir los archivos de la practica que contenga el HTML y la función de javascript
