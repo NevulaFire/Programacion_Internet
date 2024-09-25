@@ -1,0 +1,18 @@
+Validar un formulario con javascript y comparar sus valores con arreglos de javascript
+Esta actividad se basa en la Actividad 06
+
+Requerimientos:
+1. El formulario debe de tener un campo de texto llamado correo y un campo de texto llamado pass.
+2. Al dar click se debe de mandar llamar a una función de javascript que me valide el contenido de cada uno de los 2 campos para validar si están vacíos o faltan de llenar algún campo, los dos son obligatorios.
+3. Si falta alguno de los dos campos me debe de mostrar con  UN SOLO  alert() un mensaje que diga "Faltan campos por llenar"
+4. Si los dos campos están llenos, la función debe de validar que el correo y la contraseña estén dentro de los arreglos y corresponda su información por posición.
+5. Si no existe el usuario (correo) y/o no corresponde su contraseña, mandar UN SOLO  alert() con un mensaje que diga "Datos incorrectos"
+6. Si el usuario (correo) existe y la contraseña corresponde, mostrar con un alert() un mensaje que diga "Bienvenido Usuario" (donde Usuario es el correo con el que se logueo)
+
+Entregables:
+1. Subir un archivo (video) con el funcionamiento, debiendo incluir las siguientes pruebas:
+a) Hacer click al botón de "Enviar" con los dos campos vacíos
+b) Hacer click al botón de "Enviar" con los dos campos llenos con datos no validos
+c) Hacer click al botón de "Enviar" con los dos campos llenos con datos validos
+d) Mostrar para cada inciso anterior el mensaje correspondiente
+2. Subir los archivos de la practica que contenga el formulario y la función de javascript

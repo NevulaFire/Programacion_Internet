@@ -1,0 +1,16 @@
+Validar un formulario con javascript.
+
+Requerimientos:
+1. El formulario debe de tener un campo de texto llamado correo, un campo de texto llamado pass y un select (ROL) con las opciones de Selecciona(0), Gerente (1), Ejecutivo (2)
+2. Al dar click se debe de mandar llamar a una función de javascript que me valide el contenido de cada uno de los tres campos para validar si están vacíos o faltan de llenar algún campo. Esto con un solo IF.
+3. Si falta alguno de los tres campos me debe de mostrar con un solo alert() un mensaje que diga "Faltan campos por llenar"
+4. Si los tres campos están llenos me debe de mostrar con un solo alert() un mensaje que diga "Campos llenos"
+
+Entregables:
+1. Subir un video (archivo) de la asignación debiendo incluir las siguientes pruebas:
+a) Hacer click al botón de "Enviar" con los tres campos vacíos
+b) Hacer click al botón de "Enviar" con los dos campos llenos y sin haber seleccionado un valor valido del select
+c) Hacer click al botón de "Enviar" con los tres campos llenos
+d) Mostrar para cada inciso anterior el mensaje correspondiente
+
+2. Subir los archivos de la practica que contenga el formulario y la función de javascript

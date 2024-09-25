@@ -1,0 +1,21 @@
+A9. Calculadora en JS
+
+Crear un documento HTML con las funciones de una calculadora (operaciones básicas)
+
+Requerimientos:
+1. El formulario debe de tener los siguientes elementos:
+    a) Un campo de texto llamado display
+    b) 9 botones para los números del cero al nueve
+    c) 4 botones para las operaciones básicas (suma, resta, multiplica, divide)
+    d) 1 botón para el símbolo de igual
+2. Programar con javascript el comportamiento de cada botón para calcular la operación y mostrar el resultado en el campo display:
+    a) Cuando se presionen los números se deben de ir concatenando y mostrando en el display
+    b) Cuando se presione algún operador se salva en una variable (operador 1) lo del display y se limpia el display
+    c) Se siguen presionado los números y concatenando para formar el operador 2
+    d) Cuando se presione el símbolo de igual se realiza la operación indiada y se muestra el resultado en el display
+
+Entregables:
+1. Subir los archivos de la practica que contenga el formulario y las funciones de javascript y/o archivos adicionales utilizados.
+2. Una vez subidos los archivos, la practica será revisada al finalizar las clases, ya sea presencialmente o virtualmente según corresponda la sección. Ustedes deben de solicitar al profesor el tiempo para hacer la entrega y se pondrán de acuerdo para hacer la revisión para hacerlo en esa sesión si hay tiempo suficiente.
+
+Se da suficiente tiempo para que este bien desarrollada.
